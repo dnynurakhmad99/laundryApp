@@ -1,0 +1,23 @@
+﻿<Page x:Class="SakananeWash.View.Homepage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SakananeWash.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="640" d:DesignWidth="320"
+      Title="Homepage">
+
+    <StackPanel>
+        <Canvas Height="640">
+            <Image Height="640" Source="/SakananeWash;component/Homepage (1).jpg" Stretch="Fill" Width="320"/>
+            <Label x:Name="lblName" Content="Danny Nurakhmad" Canvas.Left="139.375" Canvas.Top="95" Width="166" Foreground="#FF26A6BD" FontSize="18" FontFamily="Square721 Cn BT" Height="33" VerticalContentAlignment="Center" UseLayoutRounding="False"/>
+            <Button x:Name="btnProfile" Content="Button" Height="30" Canvas.Left="82" Canvas.Top="594" Width="30" Opacity="0" Click="btnProfile_Click"/>
+            <Button x:Name="btnProgress" Content="Button" Canvas.Left="24" Canvas.Top="594" Width="30" Height="30" Opacity="0" Click="btnProgress_Click"/>
+            <Button x:Name="btnCuci" Content="Button" Canvas.Left="91" Canvas.Top="476" Width="143" Opacity="0" Height="37" Click="btnCuci_Click"/>
+            <Button x:Name="btnHistory" Content="Button" Canvas.Left="266" Canvas.Top="594" Width="30" Height="30" Opacity="0" Click="btnHistory_Click"/>
+            <Button x:Name="btnChat" Content="Button" Canvas.Left="209" Canvas.Top="594" Width="30" Opacity="0" Height="30" Click="btnChat_Click"/>
+        </Canvas>
+
+    </StackPanel>
+</Page>

@@ -1,0 +1,22 @@
+﻿<Page x:Class="SakananeWash.View.IsiChat"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SakananeWash.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="640" d:DesignWidth="320"
+      Title="IsiChat">
+
+    <StackPanel>
+        <Canvas Height="640">
+            <Image Height="640" Source="/SakananeWash;component/Isi Chat.jpg" Stretch="Fill" Width="320"/>
+            <Button x:Name="btnBack" Content="Button" Canvas.Left="23" Canvas.Top="39" Width="32" Height="32" Opacity="0" Click="btnBack_Click"/>
+            <Label x:Name="lblLaundry" Content="Nama Laundry" Canvas.Left="111" Canvas.Top="70" Width="98" HorizontalAlignment="Left" HorizontalContentAlignment="Center" FontFamily="Square721 Cn BT" Foreground="White"/>
+            <Label x:Name="lblChat" Content="Halo" Canvas.Left="28" Canvas.Top="141" Width="215" Height="39" VerticalContentAlignment="Center" FontFamily="Square721 Cn BT" Foreground="#FF166370"/>
+            <TextBox x:Name="txtChat" Height="25" Canvas.Left="30" TextWrapping="Wrap" Canvas.Top="576" Width="220" BorderThickness="0" Foreground="#FF166370" VerticalContentAlignment="Center"/>
+            <Button x:Name="btnSend" Content="Button" Canvas.Left="268" Canvas.Top="574" Width="30" Height="30" Opacity="0" Click="btnSend_Click"/>
+        </Canvas>
+
+    </StackPanel>
+</Page>

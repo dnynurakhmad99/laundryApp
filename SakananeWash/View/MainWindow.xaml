@@ -1,0 +1,15 @@
+﻿<Window x:Class="SakananeWash.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SakananeWash"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="678.833" Width="335.646">
+    <StackPanel>
+        <Canvas Height="648" Background="Black">
+            <Frame x:Name="frmMain" Content="Frame" HorizontalAlignment="Left" Height="648" VerticalAlignment="Top" Width="328" Source="/SakananeWash;component/View/GetStarted.xaml" NavigationUIVisibility="Hidden"/>
+        </Canvas>
+
+    </StackPanel>
+</Window>

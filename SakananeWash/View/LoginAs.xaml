@@ -1,0 +1,18 @@
+﻿<Page x:Class="SakananeWash.View.LoginAs"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SakananeWash.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="640" d:DesignWidth="320"
+      Title="LoginAs">
+
+    <StackPanel>
+        <Canvas Height="640">
+            <Image Height="640" Source="/SakananeWash;component/Login As.jpg" Stretch="Fill" Width="320"/>
+            <Button x:Name="btnUser" Content="Button" Canvas.Left="67" Canvas.Top="539" Width="186" Click="btnUser_Click" Height="37" Opacity="0"/>
+        </Canvas>
+
+    </StackPanel>
+</Page>
